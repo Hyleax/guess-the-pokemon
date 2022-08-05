@@ -130,6 +130,7 @@ footer {
 
     .input-container{
         display: block;
+        margin-top: 0px;
     }
 
     .submit_btn{
@@ -138,6 +139,14 @@ footer {
 
     .user_text{
         width: 70%;
+    }
+    
+    .quiz-container{
+        height: 510px;
+    }
+
+    .try-again{
+        bottom: 100px;
     }
 }
 
