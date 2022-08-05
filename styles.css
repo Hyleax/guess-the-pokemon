@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.google.com/specimen/Press+Start+2P#standard-styles");
+
+body{
+    font-size:x-small;
+    font-family: 'Press Start 2P', cursive;
+    /*gameboy green = #B0CB9B*/
+    background-color: aliceblue;
+}
+header, main{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.timer-container{
+    text-align: center;
+    margin: 20px;
+}
+
+.time{
+    color: black;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+header h1{
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header{
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+
+.quiz-container{
+    padding: 10px;
+    border: 3px solid black;
+    text-align: center;
+    overflow: hidden;
+    height: 600px;
+}
+
+.image-container{
+    min-height: 300px;
+    text-align: center;
+}
+
+.pokemon_image{
+    background: url(grassBackground.jpg);
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.submit_btn, .try_again_btn{
+    font-size:x-small;
+    font-family: 'Press Start 2P', cursive;
+    background-color: white;
+    border: 3px solid black;
+    width: 5rem;
+    height: 2.6rem;
+    font-weight: bold;
+}
+
+.submit_btn:hover, .try_again_btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.user_text{ 
+    font-size:x-small;
+    font-family: 'Press Start 2P', cursive;
+    border: 3px solid black;
+    height: 35px;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+.input-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 1rem;
+    justify-content:center;
+}
+
+.pokemon_name_bold{
+    color: green;
+    text-transform: capitalize;
+}
+
+.try-again{
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+    display: flex;
+    visibility: hidden;
+    gap: 1rem;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+ }
+
+@media (max-width:600px) {
+    header h1{
+        height: 70px;
+    }
+}
+
+@media(max-height: 650px){
+    footer{
+        display: none;
+    }
+}
+
+
+
+

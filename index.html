@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="quiz">
+
+    <header>
+        <h1>Guess The Pokemon <span><img class="logo" src="pokeball.png" alt="pokeball"></span></h1>
+    </header>
+
+    <main>
+        <div class="timer-container">
+            <h2 class="timer">TIME:<span class="time">60
+            </span></h2>
+        </div>
+        <form class="quiz-container">
+            <h2>Score:<span class="score">0</span></h2>
+            <div class="timer"></div>
+            <div class="image-container">
+            </div>
+            <h3 class="pokemon_name"></h3>
+            <h2 class="result"></h2>
+
+            <div class="input-container">
+                <input type="text" class="user_text" spellcheck="false" placeholder="e.g. pikachu">
+                <button class="submit_btn">Submit</button>
+            </div>   
+
+            <div class="try-again">
+                <h2>try again? </h2>
+                <button class="try_again_btn">ok</button>
+            </div>
+        </form>
+    </main>
+    </div>
+    <footer>
+        <p>	&copy; 2022 Norman Yap</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
