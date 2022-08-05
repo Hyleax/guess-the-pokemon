@@ -108,9 +108,9 @@ header{
 }
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
-    bottom: 0;
+    top: 100px;
     width: 100%;
     color: black;
     text-align: center;
