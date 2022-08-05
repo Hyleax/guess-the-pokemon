@@ -171,6 +171,7 @@ const resetGame = () =>{
     userScoreElement.textContent = score
     inputContainer.style.visibility = "visible"
     tryAgainSection.style.visibility = "hidden"
+    userText.value = ""
 }
 
 onTimer(timeElement.textContent)
