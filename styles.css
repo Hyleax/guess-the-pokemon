@@ -122,12 +122,6 @@ footer {
     }
 }
 
-@media(max-height: 650px){
-    footer{
-        display: none;
-    }
-}
-
 @media(max-width: 420px){
     .pokemon_image{
         width: 170px;
